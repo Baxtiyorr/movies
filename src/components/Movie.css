@@ -1,0 +1,27 @@
+.movie-card img{
+    width: 130px;
+}
+.movie-wrapper a{
+    color: black;
+    text-decoration: none;
+    cursor:pointer;
+}
+.movie-wrapper{
+    max-width: 1230px;
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap:30px;
+}
+.movie-card{
+    padding: 20px;
+    box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.75);
+border-radius: 20px;
+display: flex;
+align-items: center;
+column-gap: 30px;
+
+}
